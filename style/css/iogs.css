@@ -1,0 +1,193 @@
+/* CONTAINER DEFINITIONS & MAIN PROPERTIES */
+/* --------------------------------------- */
+@font-face {
+   font-family: 'Latin Modern';
+   font-style: normal;
+   font-weight: normal;
+   font-display: swap;
+   src: url('./fonts/LM-regular.woff2') format('woff2'),
+     url('./fonts/LM-regular.woff') format('woff'),
+     url('./fonts/LM-regular.ttf') format('truetype');
+ }
+ 
+ @font-face {
+   font-family: 'Latin Modern';
+   font-style: italic;
+   font-weight: normal;
+   font-display: swap;
+   src: url('./fonts/LM-italic.woff2') format('woff2'),
+     url('./fonts/LM-italic.woff') format('woff'),
+     url('./fonts/LM-italic.ttf') format('truetype');
+ }
+ 
+ @font-face {
+   font-family: 'Latin Modern';
+   font-style: normal;
+   font-weight: bold;
+   font-display: swap;
+   src: url('./fonts/LM-bold.woff2') format('woff2'),
+     url('./fonts/LM-bold.woff') format('woff'),
+     url('./fonts/LM-bold.ttf') format('truetype');
+ }
+ 
+ @font-face {
+   font-family: 'Latin Modern';
+   font-style: italic;
+   font-weight: bold;
+   font-display: swap;
+   src: url('./fonts/LM-bold-italic.woff2') format('woff2'),
+     url('./fonts/LM-bold-italic.woff') format('woff'),
+     url('./fonts/LM-bold-italic.ttf') format('truetype');
+ }
+
+ @font-face {
+   font-family: 'Libertinus';
+   font-style: normal;
+   font-weight: normal;
+   font-display: swap;
+   src: url('./fonts/Libertinus-regular.woff2') format('woff2');
+ }
+ 
+ @font-face {
+   font-family: 'Libertinus';
+   font-style: italic;
+   font-weight: normal;
+   font-display: swap;
+   src: url('./fonts/Libertinus-italic.woff2') format('woff2');
+ }
+ 
+ @font-face {
+   font-family: 'Libertinus';
+   font-style: normal;
+   font-weight: bold;
+   font-display: swap;
+   src: url('./fonts/Libertinus-bold.woff2') format('woff2');
+ }
+ 
+ @font-face {
+   font-family: 'Libertinus';
+   font-style: italic;
+   font-weight: bold;
+   font-display: swap;
+   src: url('./fonts/Libertinus-bold-italic.woff2') format('woff2');
+ }
+ 
+ @font-face {
+   font-family: 'Libertinus';
+   font-style: normal;
+   font-weight: 600;
+   font-display: swap;
+   src: url('./fonts/Libertinus-semibold.woff2') format('woff2');
+ }
+ 
+ @font-face {
+   font-family: 'Libertinus';
+   font-style: italic;
+   font-weight: 600;
+   font-display: swap;
+   src: url('./fonts/Libertinus-semibold-italic.woff2') format('woff2');
+ }
+
+/* Default container */
+html, body {
+   position:relative;
+   font-size: 15px ;
+   font-family: "Latin Modern", Arial, "Liberation Sans", FreeSans, sans-serif; 
+   line-height: 1.5;
+   background-color:white; }
+
+/* Personal container */
+.left-column {
+   background-color: #2e5478;}
+
+/* ================================================================= */
+
+/* TEXT FORMATTING */
+/* --------------- */
+
+/* General */
+i.en { 
+   opacity: 0.5; }
+h1, h2, h3 {
+   font-weight: bold; }
+.textcv p {
+   text-align:justify; }
+
+/* Colonne de gauche */
+.identity {
+   color:white; }
+.identity p {
+   margin-bottom: 8px; }
+.identity p:last-child {
+   margin-bottom: 16px; }
+
+/* Colonne centrale */
+.textcv h2 {
+   color:#2e5478;
+   border-bottom:3px solid #2e5478; }
+.textcv table,
+.textcv dl {
+   width:100%;
+   font-size:14px; }
+.textcv td {
+   text-align:justify;
+   padding:3px 7px 6px 7px; }
+.textcv td.dates {
+   width:30%;
+   text-align:left; }
+.textcv td.cat { 
+   width:15%; }
+.textcv td.dates,
+.textcv dt {
+   color:#2e5478;
+   font-weight:bold; }
+.textcv dd {
+   padding-left:20px;
+   text-align:justify; }
+.textcv dt {
+   font-size:18px;
+   padding-top:10px; }
+.textcv ul {
+   list-style-type: none; 
+   padding: 0 ;
+   margin: 0 ;}
+.textcv  ol{
+   padding-left: 20px; 
+   list-style-type: decimal; }
+.textcv:last-child {
+   padding-bottom: 16px ;}
+
+.bas-de-page {
+   padding: 16px;
+   color:white;
+   background-color: #2e5478; }
+
+/* ================================================================= */
+
+/* LINKS */
+/* ----- */
+
+/* General */
+a {
+   text-decoration:none;
+   color:#2e5478; }
+a:hover { 
+   opacity: 0.5 }
+
+/* Colonne de gauche */
+.identity a {
+   text-decoration:none;
+   color:white; }
+
+/* Colonne cenrale */
+.textcv a {
+   font-weight:bold;}
+
+/* Footer */
+.bas-de-page a {
+   color: white;
+   font-weight: bold; }
+
+
+/* ================================================================= */
+
